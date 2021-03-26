@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <script src="https://use.fontawesome.com/f7f8900376.js"></script>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Varela+Round&display=swap" rel="stylesheet">
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="container-fluid ">
+      <div class="row">
+        <div class="col-md-2" style="background-color: #f8f9fa;"></div>
+        <div class="col-md-10">
+          <div class="row">
+            <div class="col-md-8 john_nav">
+              <nav class="navbar navbar-light bg-light">
+
+
+                <form class="form-inline">
+                  <div class="form-control mr-sm-2 rounded-pill">
+                    <span>
+                      <button class="btn rounded-pill border-0 ml-n5" type="button">
+                        <i class="fa fa-search " style="background:transparent"></i>
+                      </button>
+
+                      <input class="form-control mr-sm-2 border-0" type="search" placeholder="Search"
+                        aria-label="Search">
+                    </span>
+                  </div>
+                </form>
+
+              </nav>
+            </div>
+            <div class="col-md-4 john_nav">
+              <!-- <div class="d-flex justify-content-end mb-3"> -->
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown active">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        John Doe
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li><i class="far fa-bell"></i></li>
+                  </ul>
+                </div>
+              </nav>
+              <!-- </div> -->
+
+            </div>
+          </div>
+          <!-- <nav class="navbar navbar-light bg-light">
+
+            
+            <form class="form-inline">
+              <div class="form-control mr-sm-2 rounded-pill">
+                <span>
+                  <button class="btn rounded-pill border-0 ml-n5" type="button">
+                    <i class="fa fa-search " style="background:transparent"></i>
+                  </button>
+
+                  <input class="form-control mr-sm-2 border-0" type="search" placeholder="Search" aria-label="Search">
+                </span>
+              </div>
+            </form>
+            <div class="d-flex flex-row-reverse bg-secondary">
+              <div class="p-2 bg-info">Flex item 1</div>
+
+            </div>
+            <ul class="navbar-nav px-3">
+              <li class="nav-item text-nowrap">
+                <a class="nav-link" href="#">Sign out</a>
+              </li>
+            </ul>
+          </nav> -->
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid ">
+      <div class="row">
+        <nav class="col-lg-2 d-none d-md-block bg-light sidebar dashboard_main">
+          <div class="sidebar-sticky">
+            <div class="container mt-5">
+              <div class="row">
+                <div class="col-sm-12">
+                  <p id="dash_img" class="text-center">
+                    <img src="image/s.png" alt="#" class="rounded-circle border border-dark" width="150" height="150">
+                  </p>
+                  <p class="align-center">
+                  <h6 class="text-center px-3 mt-4 mb-1 text-muted">
+                    Daily Points</h6>
+                  </p>
+                  <p class="font-weight-bold text-center">
+                    2,466
+                  </p>
+                  <div class="divider mt-2"></div>
+                </div>
+
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <h6
+                    class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                    Dashboard</h6>
+                </div>
+                <div class="col-md-12">
+                  <ul class="list-group nav flex-column mb-2">
+
+
+                    <li class=" nav-item list-group-item">
+                      <a class="nav-link" href="#">
+                        <i class="fa fa-home mr-2" aria-hidden="true"></i>Overview
+                      </a>
+                    </li>
+                    <li class="nav-item list-group-item">
+                      <a class="nav-link" href="#">
+                        <i class="fa fa-calendar-check-o mr-2" aria-hidden="true"></i>Daily Plan</a>
+                    </li>
+                    <li class="nav-item list-group-item">
+                      <a class="nav-link" href="#">
+                        <i class="fa fa-line-chart mr-2" aria-hidden="true">
+                        </i>Progress
+                      </a>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h6
+                    class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                    PERSONAL TIPS</h6>
+                </div>
+                <div class="col-sm-12">
+                  <ul class="list-group nav flex-column mb-2">
+
+                    <li class=" nav-item list-group-item">
+                      <a class="nav-link" href="#">
+                        <i class="fa fa-cutlery mr-2" aria-hidden="true"></i>Nutrition
+                      </a>
+                    </li>
+                    <li class="nav-item list-group-item">
+                      <a class="nav-link" href="#">
+                        <i class="fa fa-futbol-o mr-2" aria-hidden="true"></i>Sport</a>
+                    </li>
+
+                    <li class="nav-item list-group-item">
+                      <a class="nav-link" href="#">
+                        <i class="fa fa-paint-brush mr-2" aria-hidden="true"></i>
+                        </i>Beauty
+                      </a>
+                    </li>
+                    <li class="nav-item list-group-item">
+                      <a class="nav-link" href="#">
+                        <i class="fa fa-heartbeat mr-2" aria-hidden="true"></i>
+                        </i>Health
+                      </a>
+                    </li>
+                    <li class="nav-item list-group-item">
+                      <a class="nav-link" href="#">
+                        <i class="fa fa-bullseye mr-2" aria-hidden="true"></i>
+                        </i>Mindfulness
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h6
+                    class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                    YOUR DATA</h6>
+                </div>
+                <div class="col-sm-12">
+                  <ul class="list-group nav flex-column mb-2">
+
+                    <li class=" nav-item list-group-item">
+                      <a class="nav-link" href="#">
+                        <i class="fa fa-tint mr-2" aria-hidden="true"></i>Blood
+                      </a>
+                    </li>
+                    <li class="nav-item list-group-item">
+                      <a class="nav-link" href="#">
+                        <i class="fa fa-eye mr-2" aria-hidden="true"></i>DNA</a>
+                    </li>
+
+                    <li class="nav-item list-group-item">
+                      <a class="nav-link" href="#">
+                        <i class="fa fa-recycle mr-2" aria-hidden="true"></i>Microbiome
+                      </a>
+                    </li>
+                    <li class="nav-item list-group-item">
+                      <a class="nav-link" href="#">
+                        <i class="fa fa-file-text-o mr-2" aria-hidden="true"></i>Questionnaire
+                      </a>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- <div class="col-sm-6 col-lg-10 mb-5"> -->
+
+        <div class="col-lg-10 mt-1 big-col">
+          <div class="container-fluid pl-5 side_content">
+            <div class="row mt-5">
+              <div class="container-fluid">
+                <div class="row">
+                  <h2>Daily Monitoring</h2>
+                </div>
+              </div>
+              <div class="container-fluid">
+                <div class="card-deck">
+                  <div class="row">
+
+                    <div class="col-lg-3 col-md-12" style="min-height: 100%;">
+                      <div class="card d-md-flex d-sm-block">
+                        <div class="card-body rect">
+                          <div class="card-body ">
+                            <div class="row">
+                              <div class="col-md-12 col-lg-6">
+                                <div class="inner_icon inner_icon-1" class="rounded-circle ">
+                                  <span class="iconify" data-icon="mdi:food-apple"
+                                    style="font-size: 30px; color: #83d67c;" data-inline="false"></span>
+                                </div>
+                              </div>
+                              <div class="col-md-12 col-lg-6">
+                                <h5 class="card-title card_t">Calories</h5>
+                                <p class="card-text card_m">2417</p>
+                                <p class="card-text card_b">DAILY AVERAGE</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card d-md-flex d-sm-block">
+                        <div class="card-body rect">
+                          <div class="card-body ">
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <div class="inner_icon inner_icon-2" class="rounded-circle ">
+
+                                  <span class="iconify" data-icon="ion:footsteps-sharp"
+                                    style="font-size: 30px; color: #e07ae9;"></span>
+                                </div>
+                              </div>
+                              <div class="col-sm-6">
+                                <h5 class="card-title card_t">Steps</h5>
+                                <p class="card-text card_m">7243</p>
+                                <p class="card-text card_b">DAILY AVERAGE</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card d-md-flex d-sm-block">
+                        <div class="card-body rect">
+                          <div class="card-body ">
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <div class="inner_icon inner_icon-3" class="rounded-circle ">
+                                  <span class="iconify" data-icon="mdi-dumbbell"
+                                    style="font-size: 30px; color: #37b5d4;" data-inline="false"></span>
+                                </div>
+                              </div>
+                              <div class="col-sm-6">
+                                <h5 class="card-title card_t">Workout</h5>
+                                <p class="card-text card_m">1 <small><b>h</b></small> <small><b>min</b></small></p>
+                                <p class="card-text card_b">ACTIVE</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card d-md-flex d-sm-block">
+                        <div class="card-body rect">
+                          <div class="card-body ">
+                            <div class="row">
+                              <div class="col-sm-6">
+                                <div class="inner_icon inner_icon-4" class="rounded-circle ">
+
+                                  <span class="iconify" data-icon="bx:bxs-moon"
+                                    style="font-size: 30px; color: #db470d;"></span>
+                                </div>
+                              </div>
+                              <div class="col-sm-6">
+                                <h5 class="card-title card_t">Sleeping Analylis</h5>
+                                <p class="card-text card_m">7 <small><b>h</b></small> 35 <small><b>min</b></small></p>
+                                <p class="card-text card_b">IN DAILY AVERAGE</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="card-deck">
+                <div class="col-lg-8 mb-2">
+                  <div class="row">
+                    <h2>Challege</h2>
+                  </div>
+                  <div class="row">
+                    <div class="card" style="height:25rem;width:57rem;">
+                      <img class="card-img" src="image/Rectangle 2.png" alt="Card image">
+                      <div class="card-img-overlay card-body">
+                        <h5 class="middle-card-1-t card-title">
+                          <iconify-icon data-icon="mdi:food-apple" style="font-size: 28px; color: #9497eb;">
+                          </iconify-icon> Early Morning Smoothie
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="middle-card-1-m card-text">Some quick example text to build on the card title and make
+                          up
+                          the bulk of the
+                          card's content.</p>
+                        <div class="row">
+                          <div class="col-md-3">
+                            <div class="entry-content">
+                              <h6 class="font-weight-bold">RECEPIE</h6>
+                              <ul class=" border-right">
+                                <li class="text-muted">We listen .</li>
+                                <li class="text-muted">We do not </li>
+                                <li class="text-muted>">We stay true to</li>
+                              </ul>
+                            </div>
+                          </div>
+                          <!-- <div class="col-md-3">
+                      <div class="calories">420 cal</div>
+                      <div class="col-sm-12 my-auto">
+                        <div class="card casm-block w-25 mx-auto">I am Groot.</div>
+                      </div>
+                    </div> -->
+                          <div class="col-sm-3 my-auto">
+                            <div class="calories mx-auto">420 cal</div>
+                          </div>
+                        </div>
+                        <button type="button" class="btn btn-dark font-weight-bold">ADD CHALLENGE</button>
+                        <button type="button" class="btn btn-outline-info shadow-none font-weight-bold">CHALLENGE
+                          FRIEND</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 mb-2">
+                  <h2>Daily Tips</h2>
+
+                  <div class="card-block">
+                    <div class="card">
+                      <div class=" mb-0 pb-0 card-body">
+                        <p class="card-title middle-card-2-t">Mindfulness</p>
+                        <p class="card-subtitle text-muted middle-card-2-m pb-2">Do one hour yoga every day for
+                          improving body balance
+                        </p>
+                        <a href="#" class="card-link text-info pb-2 font-weight-bold">>Find out more</a>
+                        <div class="divider mt-2"></div>
+                      </div>
+                      <div class=" mb-0 pb-0 card-body">
+                        <p class="card-title middle-card-2-t">Get More Of Day</p>
+                        <p class="card-subtitle text-muted middle-card-2-m pb-2">Wake forty min before the usual and go
+                          for a mornig walk.
+                        </p>
+                        <a href="#" class=" card-link text-info  font-weight-bold">>Find out more</a>
+                        <div class="divider mt-2"></div>
+                      </div>
+                      <div class=" mb-0 card-body">
+                        <p class="card-title middle-card-2-t">Early Bed Time</p>
+                        <p class="card-subtitle text-muted middle-card-2-m pb-2">Go to the sleep more at the same every
+                          night </p>
+                        <a href="#" class="card-link text-info mb-0 font-weight-bold">>Find out more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="row"></div>
+              <h2>Recommended Challege</h2>
+            </div>
+            <div class="row">
+              <div class="card-deck">
+                <div class="col-3 mb-2">
+                  <div class="card bottom-card d-flex" style="height:18rem;width:18rem;">
+                    <img class="card-img-top bottom-card-1" src="image/s.png" alt="Card image cap">
+                    <div class="card-body bottom-card-body-1">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <div class="inner_icon" class="rounded ">
+                            <span class="iconify" data-icon="mdi-dumbbell" style="font-size: 30px; color: #d27fda;"
+                              data-inline="false"></span>
+                          </div>
+                        </div>
+                        <div class="col-sm-10">
+                          <p class="card-text bottom-card-text">Some quick example text to build on the</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3 mb-2">
+                  <div class="card bottom-card" style="height:18rem;width:18rem;">
+                    <img class="card-img-top bottom-card-2" src="image/eating_salad_p.png" alt="Card image cap">
+                    <div class="card-body bottom-card-body-2">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <div class="inner_icon" class="rounded ">
+                            <span class="iconify" data-icon="mdi:food-apple" style="font-size: 30px; color: #83d67c;"
+                              data-inline="false"></span>
+                          </div>
+                        </div>
+                        <div class="col-sm-10">
+                          <p class="card-text bottom-card-text">Some quick example text to build on the</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3 mb-2">
+                  <div class="card bottom-card" style="height:18rem;width:18rem;">
+                    <img class="card-img-top bottom-card-3" src="image/yoga_p.png" alt="Card image cap">
+                    <div class="card-body bottom-card-body-3">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <div class="inner_icon" class="rounded ">
+                            <span class="iconify" data-icon="mdi:heart-pulse"
+                              style="font-size: 30px; color: #37b4da;"></span>
+                          </div>
+                        </div>
+                        <div class="col-sm-10">
+                          <p class="card-text bottom-card-text">Some quick example text to build on the</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-3 mb-2">
+                  <div class="card bottom-card" style="height:18rem;width:18rem;">
+                    <img class="card-img-top bottom-card-4" src="image/drinking_p.png" alt="Card image cap">
+                    <div class="card-body bottom-card-body-4">
+                      <div class="row">
+                        <div class="col-sm-2">
+                          <div class="inner_icon" class="rounded ">
+                            <span class="iconify" data-icon="mdi:food-apple" style="font-size: 30px; color: #83d67c;"
+                              data-inline="false"></span>
+                          </div>
+                        </div>
+                        <div class="col-sm-10">
+                          <p class="card-text bottom-card-text">Some quick example text to build on the</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
